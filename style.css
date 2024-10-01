@@ -13,29 +13,40 @@ body {
 header {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight:bold;
 }
 
 a {
     font-size: 18px;
     color: #E5E7EB;
 }
-.content1, .content2 {
-    background-color: #1F2937;
-    display: flex;
-    margin: 0;
+
+.content1, .content2, .content3, .content4, .content5 {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .content1 {
+    background-color: #1F2937;
+    display: flex;
     justify-content: space-between;
 }
 
 .content2 {
-    justify-content: center;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
 
 .content2-body {
-    width: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 div.content2-body > h1 {
@@ -50,5 +61,17 @@ div.content2-body > p {
 }
 
 div.content2 > img {
-    width: 300px;
+    max-height: 300px;
+    min-width: 300px;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    min-width: 100px;
+    min-height: 30px;
+    border-radius: 10px;
+    border: none;
+    max-width: fit-content;
+    font-weight: 1200px;
 }
