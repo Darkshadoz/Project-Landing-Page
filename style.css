@@ -135,3 +135,40 @@ button {
     padding-right: 40px;
     padding-bottom: 40px
 }
+
+.content5 {
+    margin: 70px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    background-color: #3882F6;
+    
+}
+
+.content5 > button {
+    border: solid white 3px;
+}
+
+.content5body > .p1 {
+    font-weight: solid;
+    color: white;
+    font-size: 24px;
+}
+
+.content5body > .p2 {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 50px;
+}
